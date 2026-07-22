@@ -10,6 +10,16 @@
   background-color: #05070b !important;
 }
 
+/* Home hero: Pad Kra Pow photo instead of the original pad thai image. */
+.elementor-13 .elementor-element.elementor-element-44e82272:not(.elementor-motion-effects-element-type-background),
+.elementor-13 .elementor-element.elementor-element-44e82272
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("/wp-content/uploads/pad-kra-pow-hero.jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
 /* Nav links: white on the dark header, brand yellow on hover/current. */
 .elementor-1028 .menu-item a.hfe-menu-item,
 .elementor-1028 .sub-menu a.hfe-sub-menu-item {

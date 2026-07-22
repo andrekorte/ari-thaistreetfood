@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Transform mirrored WordPress pages into a clean static site under ../site/."""
+import hashlib
 import os
 import re
 import shutil
@@ -154,9 +155,12 @@ def rewrite_html(html):
         html = html.replace(old, NEW_LOGO_URL)
 
     # --- custom overrides stylesheet, last so it wins the cascade ---
+    # (content-hash version param so browsers pick up changes immediately)
+    css = open(os.path.join(MIRROR, "custom.css"), "rb").read()
+    ver = hashlib.md5(css).hexdigest()[:8]
     html = html.replace(
         "</head>",
-        '<link rel="stylesheet" href="/wp-content/custom.css" media="all">\n</head>',
+        f'<link rel="stylesheet" href="/wp-content/custom.css?ver={ver}" media="all">\n</head>',
     )
 
     # restore protected canonical
@@ -192,6 +196,16 @@ def main():
     for src, dest in PAGES.items():
         with open(os.path.join(MIRROR, src), encoding="utf-8") as fh:
             html = fh.read()
+        if src == "home.html":
+            # hero background: replace the 3-image slideshow with a single
+            # static Pad Kra Pow photo (the lower slideshow keeps its images)
+            html = re.sub(
+                r'background_slideshow_gallery&quot;:\[[^\]]*1136[^\]]*\]',
+                "background_slideshow_gallery&quot;:[{&quot;id&quot;:1145,"
+                "&quot;url&quot;:&quot;https:\\\\/\\\\/ari-thaistreetfood.com"
+                "\\\\/wp-content\\\\/uploads\\\\/pad-kra-pow-hero.jpg&quot;}]",
+                html,
+            )
         html = rewrite_html(html)
         dest_path = os.path.join(SITE, dest)
         os.makedirs(os.path.dirname(dest_path), exist_ok=True)

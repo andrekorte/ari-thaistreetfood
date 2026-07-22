@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate /menu/ from menu-data.json, reusing the built About page's
 header/footer shell. Run AFTER build-static.py."""
+import hashlib
 import html as htmlmod
 import json
 import os
@@ -24,8 +25,11 @@ footer = shell[shell.rfind("<div", 0, p2):]
 # --- adapt the head for the menu page ---
 prefix = prefix.replace("About - Ari - Thai Street Food", "Menu - Ari - Thai Street Food")
 prefix = prefix.replace("https://ari-thaistreetfood.com/about/", "https://ari-thaistreetfood.com/menu/")
+_menucss = open(os.path.join(HERE, "menu.css"), "rb").read()
+_menuver = hashlib.md5(_menucss).hexdigest()[:8]
 prefix = prefix.replace(
-    "</head>", '<link rel="stylesheet" href="/wp-content/menu.css" media="all">\n</head>'
+    "</head>",
+    f'<link rel="stylesheet" href="/wp-content/menu.css?ver={_menuver}" media="all">\n</head>',
 )
 # nav: un-highlight About (the shell page), highlight Menu instead
 prefix = prefix.replace("current-menu-item", "").replace("current_page_item", "")
