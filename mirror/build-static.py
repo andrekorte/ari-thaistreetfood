@@ -8,6 +8,13 @@ MIRROR = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.normpath(os.path.join(MIRROR, ".."))  # repo root
 DOMAIN = "https://ari-thaistreetfood.com/"
 
+# The old FoodBooking ordering account is dead; all menu/order links go to Clover now.
+FOODBOOKING_URL = (
+    "https://www.foodbooking.com/ordering/restaurant/menu"
+    "?restaurant_uid=05536531-9a25-444d-a449-9b3cfe07d7da"
+)
+CLOVER_URL = "https://arithaistreetfood-brisbane-city.cloveronline.com.au/menu/all"
+
 PAGES = {
     "home.html": "index.html",
     "about.html": "about/index.html",
@@ -36,6 +43,9 @@ def local_path(path):
 
 
 def rewrite_html(html):
+    # --- menu/order links: dead FoodBooking account -> Clover ordering ---
+    html = html.replace(FOODBOOKING_URL, CLOVER_URL)
+
     # --- protect canonical link (keep absolute for SEO) ---
     html = html.replace(
         '<link rel="canonical" href="' + DOMAIN,
