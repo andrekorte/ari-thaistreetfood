@@ -20,6 +20,11 @@
   background-size: cover !important;
 }
 
+/* Header phone button: keep the number on one line. */
+.elementor-1028 .elementor-button .elementor-button-text {
+  white-space: nowrap;
+}
+
 /* Home "Featured dishes": ENTREE tile photo (Set Moo Ping skewers). */
 .elementor-13 .elementor-element.elementor-element-228f0fbb {
   background-image: url("/wp-content/uploads/entree-tile.jpg") !important;
