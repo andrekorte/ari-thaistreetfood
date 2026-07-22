@@ -63,6 +63,10 @@ def rewrite_html(html):
     # --- menu/order links: dead FoodBooking account -> Clover ordering ---
     html = html.replace(FOODBOOKING_URL, CLOVER_URL)
 
+    # --- phone number: old mobile -> restaurant landline ---
+    html = html.replace("tel:+61452643155", "tel:+61739057358")
+    html = html.replace("+61452643155", "(07) 3905 7358")
+
     # --- protect canonical link (keep absolute for SEO) ---
     html = html.replace(
         '<link rel="canonical" href="' + DOMAIN,
