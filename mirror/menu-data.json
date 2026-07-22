@@ -1,0 +1,168 @@
+{
+  "note": "Mirrored from the Clover ordering page (menu/all). 'id' is the Clover item id (used for the local photo at /wp-content/uploads/menu/<id>.jpg); id null = no photo on Clover. Packaging 'Bag' items and the empty HOT BAR category are omitted. Prices/availability on Clover remain the source of truth.",
+  "order_base": "https://arithaistreetfood-brisbane-city.cloveronline.com.au",
+  "categories": [
+    {
+      "slug": "ala-carte",
+      "title": "Ala Carte",
+      "items": [
+        {"name": "Pad Kra Pow on Rice", "price": "16.99", "id": "NXHAYHKHN0Z4W", "href": "/menu/pad-kra-pow-on-rice-NXHAYHKHN0Z4W"},
+        {"name": "Thai Fried Rice", "price": "16.99", "id": "FSV8BJ4P64JQT", "href": "/menu/thai-fried-rice-FSV8BJ4P64JQT"},
+        {"name": "Spicy Basil Fried Rice", "price": "16.99", "id": "ZFPRY51KHQWGA", "href": "/menu/spicy-basil-fried-rice-ZFPRY51KHQWGA"},
+        {"name": "Tom Yum Fried Rice", "price": "16.99", "id": "5PC7704WZNG10", "href": "/menu/tom-yum-fried-rice-5PC7704WZNG10"},
+        {"name": "Chili Jam Stir Fry on Rice", "price": "16.99", "id": "YK1PX0KEX58Y8", "href": "/menu/chili-jam-stir-fry-on-rice-YK1PX0KEX58Y8"},
+        {"name": "Garlic & Pepper Stir Fry on Rice", "price": "16.99", "id": "GMKGQ0RKTYSC6", "href": "/menu/garlic-pepper-stir-fry-on-rice-GMKGQ0RKTYSC6"},
+        {"name": "Red Curry Paste Stir Fried", "price": "16.99", "id": "S825YFYQKRVJ4", "href": "/menu/red-curry-paste-stir-fried-S825YFYQKRVJ4"},
+        {"name": "Gai-Lan (Kana) Oyster Sauce over Rice", "price": "16.99", "id": "1TJJZXXZ2P02M", "href": "/menu/gai-lan-kana-oyster-sauce-over-the-rice-1TJJZXXZ2P02M"},
+        {"name": "Chilli Salt Stir-Fry on Rice", "price": "16.99", "id": "W24AW42J80NNP", "href": "/menu/chilli-salt-stir-fry-on-rice-W24AW42J80NNP"},
+        {"name": "Pad See Eiw", "price": "16.99", "id": "D2HE898XHZFZ6", "href": "/menu/pad-see-eiw-D2HE898XHZFZ6"},
+        {"name": "Pad Thai", "price": "16.99", "id": "A2SZJ3QZ7KC3M", "href": "/menu/pad-thai-A2SZJ3QZ7KC3M"},
+        {"name": "Pad Kee Mao with Rice Noodles", "price": "16.99", "id": "M8PK40S86ZGYG", "href": "/menu/pad-kee-mao-with-rice-noodles-M8PK40S86ZGYG"},
+        {"name": "Sen Kaeaw Salad – Kelp Noodle", "price": "16.99", "id": "NENHKYJCYDAS4", "href": "/menu/sen-kaeaw-salad-kelp-noodle-NENHKYJCYDAS4"},
+        {"name": "Dry Sukiyaki Kelp Noodles", "price": "16.99", "id": "E5CTVN930XZHY", "href": "/menu/dry-sukiyaki-kelp-noodles-E5CTVN930XZHY"},
+        {"name": "Tum Sen Lek – Thin Rice Noodle Salad", "price": "16.99", "id": "VQH95N1025XY2", "href": "/menu/tum-sen-lek-thin-rice-noodle-salad-VQH95N1025XY2"}
+      ]
+    },
+    {
+      "slug": "noodle-soup",
+      "title": "Noodle Soup",
+      "items": [
+        {"name": "Clear Noodle Soup", "price": "16.99", "id": "V4WJGNV2M69N4", "href": "/menu/clear-noodle-soup-V4WJGNV2M69N4"},
+        {"name": "Creamy Tom Yum Noodles", "price": "16.99", "id": "8MC43HVQXV9C4", "href": "/menu/creamy-tom-yum-noodles-8MC43HVQXV9C4"},
+        {"name": "Spicy and Sour Soup", "price": "16.99", "id": "031WY8QC5VT84", "href": "/menu/spicy-and-sour-soup-031WY8QC5VT84"},
+        {"name": "Boat Noodles", "price": "16.99", "id": "30HD8R8FT0K7P", "href": "/menu/boat-noodles-30HD8R8FT0K7P"},
+        {"name": "Pink Noodle Sauce", "price": "16.99", "id": "NEN9S92NA7HTC", "href": "/menu/pink-noodle-sauce-NEN9S92NA7HTC"},
+        {"name": "Dry Noodles with Black Soy Sauce", "price": "16.99", "id": "ZEWCM8XY96TBP", "href": "/menu/dry-noodles-with-black-soy-sauce-ZEWCM8XY96TBP"}
+      ]
+    },
+    {
+      "slug": "entree",
+      "title": "Entree",
+      "items": [
+        {"name": "Moo Ping – Pork Skewers", "price": "3.50", "id": "1CD201QFXFVN0", "href": "/menu/moo-ping-pork-skewers-1CD201QFXFVN0"},
+        {"name": "Set Moo Ping (Pork Skewers)", "price": "12.99", "id": "SBARCTJXW2SC4", "href": "/menu/set-moo-ping-pork-skewers-SBARCTJXW2SC4"},
+        {"name": "Thai Fish Cake (1 pc)", "price": "1.50", "id": "MSKWMAH31TX9J", "href": "/menu/thai-fish-cake-1-pcs-MSKWMAH31TX9J"},
+        {"name": "Spring Roll (1 pc)", "price": "2.00", "id": "0ESJM4VVQ7ZR8", "href": "/menu/spring-roll-1-pcs-0ESJM4VVQ7ZR8"},
+        {"name": "Sour Pork (1 pc)", "price": "3.50", "id": "V03RYSKQQNYCJ", "href": "/menu/sour-pork-1-pcs-V03RYSKQQNYCJ"},
+        {"name": "Sour Pork (3 pcs)", "price": "10.00", "id": "0SB0HW39X0BFY", "href": "/menu/sour-pork-3-pcs-0SB0HW39X0BFY"},
+        {"name": "Chicken Dim Sim (4 pcs)", "price": "9.00", "id": "38QVNMVWFPBZE", "href": "/menu/chicken-dimsim-4pcs-38QVNMVWFPBZE"},
+        {"name": "Chicken Dim Sim (1 pc)", "price": "2.30", "id": "92C82K5RFB8SJ", "href": "/menu/chicken-dimsim-1-pcs-92C82K5RFB8SJ"},
+        {"name": "Chicken Wing Zap", "price": "3.00", "id": null, "href": "/menu/chicken-wing-zap-MR5JDGRDE6108"},
+        {"name": "Curry Puff", "price": "3.00", "id": null, "href": "/menu/curry-puff-ZQJMJMRKHE1D4"},
+        {"name": "Thai Sausage", "price": "4.00", "id": null, "href": "/menu/thai-sausage-NRTY4JAVEJD8J"}
+      ]
+    },
+    {
+      "slug": "vegan",
+      "title": "Vegan",
+      "items": [
+        {"name": "Thai Fried Rice (Vegan)", "price": "16.99", "id": "NYB0WWPF9HD2P", "href": "/menu/thai-fried-rice-vegan-NYB0WWPF9HD2P"},
+        {"name": "Garlic and Pepper (Vegan)", "price": "16.99", "id": "XWRQT68F4XPKT", "href": "/menu/garlic-and-pepper-vegan-XWRQT68F4XPKT"},
+        {"name": "Pad Ka Praw (Vegan)", "price": "16.99", "id": "CMR66B7SJJ77T", "href": "/menu/pad-ka-praw-vegan-CMR66B7SJJ77T"},
+        {"name": "Spicy Basil Fried Rice (Vegan)", "price": "16.99", "id": "XJ1H2G0ARMARM", "href": "/menu/spicy-basil-fried-rice-vegan-XJ1H2G0ARMARM"},
+        {"name": "Thai Salt and Chili (Vegan)", "price": "16.99", "id": "ZAH62RPRDXJCW", "href": "/menu/thai-salt-and-chili-vegan-ZAH62RPRDXJCW"},
+        {"name": "Chili Jam Stir Fried (Vegan)", "price": "16.99", "id": "HHCZVXGF638J6", "href": "/menu/chili-jam-stir-fried-vegan-HHCZVXGF638J6"},
+        {"name": "Pad Kee Mao (Vegan)", "price": "16.99", "id": "P4RFZSGZN1X3Y", "href": "/menu/pad-kee-mao-P4RFZSGZN1X3Y"},
+        {"name": "Red Curry Stir Fried (Vegan)", "price": "16.99", "id": "7R8Z0FBWKFA5Y", "href": "/menu/red-curry-stir-fried-vegan-7R8Z0FBWKFA5Y"},
+        {"name": "Gai-Lan (Kana) Oyster Sauce (Vegan)", "price": "16.99", "id": "N7SZ7NT1DC3QJ", "href": "/menu/gailan-kana-oyster-sauce-vegan-N7SZ7NT1DC3QJ"},
+        {"name": "Sen Keaw Salad (Vegan)", "price": "16.99", "id": "JPM20XXGPYHNE", "href": "/menu/sen-keaw-salad-vegan-JPM20XXGPYHNE"}
+      ]
+    },
+    {
+      "slug": "gluten-free",
+      "title": "Gluten Free",
+      "items": [
+        {"name": "Thai Fried Rice (GF)", "price": "16.99", "id": "SD6YP43SFBAGE", "href": "/menu/thai-fried-rice-gf-SD6YP43SFBAGE"},
+        {"name": "Garlic and Pepper (GF)", "price": "16.99", "id": "CMZF5Y7HF2MRJ", "href": "/menu/garlic-and-papper-gf-CMZF5Y7HF2MRJ"},
+        {"name": "Pad Ka Praw (GF)", "price": "16.99", "id": "1BPX2YZ7GXTR8", "href": "/menu/pad-ka-praw-gf-1BPX2YZ7GXTR8"},
+        {"name": "Spicy Basil Fried Rice (GF)", "price": "16.99", "id": "EG0SV5G0XHA1E", "href": "/menu/spicy-basil-fried-rice-gf-EG0SV5G0XHA1E"},
+        {"name": "Thai Salt and Chili (GF)", "price": "16.99", "id": "8EM0F7NG5FVDW", "href": "/menu/thai-salt-and-chili-gf-8EM0F7NG5FVDW"},
+        {"name": "Chili Jam Stir Fried (GF)", "price": "16.99", "id": "029KRJC31FPRY", "href": "/menu/chili-jam-stir-fried-gf-029KRJC31FPRY"},
+        {"name": "Red Curry Paste Stir Fried (GF)", "price": "16.99", "id": "WBYWPRBFKDN90", "href": "/menu/red-curry-paste-stir-fried-gf-WBYWPRBFKDN90"},
+        {"name": "Gai-Lan (Kana) Oyster Sauce (GF)", "price": "16.99", "id": "1G6AGSR48GS1C", "href": "/menu/gai-lankana-oyster-sauce-gf-1G6AGSR48GS1C"},
+        {"name": "Pad Kee Mao (GF)", "price": "16.99", "id": "GPS2K9343EW44", "href": "/menu/pad-kee-mao-gf-GPS2K9343EW44"},
+        {"name": "Sen Keaw Salad (GF)", "price": "16.99", "id": "QEHHJP0748F36", "href": "/menu/sen-keaw-salad-gf-QEHHJP0748F36"},
+        {"name": "Dry Sukiyaki (GF)", "price": "16.99", "id": "PKGH8NZ241K18", "href": "/menu/dry-sukiyaki-gf-PKGH8NZ241K18"},
+        {"name": "Tum Sen Lek Salad (GF)", "price": "16.99", "id": "BYWNWXQ2TRCE2", "href": "/menu/tum-sen-lek-salad-gf-BYWNWXQ2TRCE2"}
+      ]
+    },
+    {
+      "slug": "aris-drinks",
+      "title": "Ari's Drinks",
+      "items": [
+        {"name": "Thai Milk Tea", "price": "7.00", "id": "YD0EN9780X3RM", "href": "/menu/thai-milk-tea-YD0EN9780X3RM"},
+        {"name": "Thai Black Tea", "price": "7.00", "id": "T262V47RZEZ50", "href": "/menu/thai-black-tea-T262V47RZEZ50"},
+        {"name": "Thai Lemon Tea", "price": "7.00", "id": "RT1EAWEWE6YR0", "href": "/menu/thai-lemon-tea-RT1EAWEWE6YR0"},
+        {"name": "Chrysanthemum Tea", "price": "7.00", "id": "Y78ZM8EECJDPG", "href": "/menu/chrysanthemum-tea-Y78ZM8EECJDPG"},
+        {"name": "Longan Juice", "price": "7.00", "id": "SJWET5ME9PP9E", "href": "/menu/longan-juice-SJWET5ME9PP9E"},
+        {"name": "Pinky Milky", "price": "7.00", "id": "ER6NTA3JAHGMM", "href": "/menu/pinky-milky-ER6NTA3JAHGMM"},
+        {"name": "O-Liang Black Coffee", "price": "7.00", "id": "K3SPS2R7A7KSJ", "href": "/menu/o-liang-black-coffee-K3SPS2R7A7KSJ"},
+        {"name": "Thai Red Soda", "price": "7.00", "id": "DFD45XDXXW93Y", "href": "/menu/thai-red-soda-DFD45XDXXW93Y"}
+      ]
+    },
+    {
+      "slug": "soft-drinks",
+      "title": "Soft Drinks",
+      "items": [
+        {"name": "Coke", "price": "3.00", "id": "M6N2PB2NRAXTW", "href": "/menu/coke-M6N2PB2NRAXTW"},
+        {"name": "Coke Zero", "price": "3.00", "id": "H91P5Z1J076SE", "href": "/menu/coke-zero-H91P5Z1J076SE"},
+        {"name": "Lemonade", "price": "3.00", "id": "1MCFK1S87VCG0", "href": "/menu/lemonade-1MCFK1S87VCG0"},
+        {"name": "Coconut Water", "price": "9.00", "id": "M0A4FA3EYP6R6", "href": "/menu/coconut-water-M0A4FA3EYP6R6"},
+        {"name": "Kombucha", "price": "3.00", "id": "6PCVWG7G2B49T", "href": "/menu/kombucha-6PCVWG7G2B49T"},
+        {"name": "Water", "price": "3.00", "id": "9W2S13ZTWHETM", "href": "/menu/water-9W2S13ZTWHETM"},
+        {"name": "Vit C", "price": "3.00", "id": "SMRCED625TVM8", "href": "/menu/vit-c-SMRCED625TVM8"},
+        {"name": "M150", "price": "3.00", "id": "VC0RRZSKEE1XC", "href": "/menu/m150-VC0RRZSKEE1XC"},
+        {"name": "Cup of Ice", "price": "1.00", "id": "GYK34V3JHWX46", "href": "/menu/cup-of-ice-GYK34V3JHWX46"},
+        {"name": "Red Bull", "price": "4.50", "id": "2TZ17BN3CZ47T", "href": "/menu/red-bull-2TZ17BN3CZ47T"}
+      ]
+    },
+    {
+      "slug": "dessert",
+      "title": "Dessert",
+      "items": [
+        {"name": "Mango Sticky Rice", "price": "14.99", "id": null, "href": "/menu/mangosticky-rice-3B1A5CZS08JQJ"},
+        {"name": "Durian", "price": "41.00", "id": "HXAQBVWWS5THW", "href": "/menu/durain-HXAQBVWWS5THW"}
+      ]
+    },
+    {
+      "slug": "thai-snacks",
+      "title": "Thai Snacks",
+      "items": [
+        {"name": "Beef Jerky", "price": "12.00", "id": "4PF2G1FFSTR0E", "href": "/menu/beef-jerky-4PF2G1FFSTR0E"},
+        {"name": "Chilli Oil", "price": "7.00", "id": "YMCE85BNV6A1G", "href": "/menu/chilli-oil-YMCE85BNV6A1G"},
+        {"name": "Crispy Pork Crackers", "price": "12.00", "id": "WW8V8T18SAYHJ", "href": "/menu/crispy-pork-crackers-WW8V8T18SAYHJ"},
+        {"name": "Jaew Bong", "price": "12.00", "id": "CDVDZVA0GV01G", "href": "/menu/jaew-bong-CDVDZVA0GV01G"},
+        {"name": "Mango Sweet & Sour", "price": "3.20", "id": "FF8XATAS1MGC2", "href": "/menu/mango-sweet-sour-FF8XATAS1MGC2"},
+        {"name": "Nam Prik Namyoi", "price": "7.00", "id": "T51TY6Z93MAHM", "href": "/menu/nam-prik-namyoi-T51TY6Z93MAHM"},
+        {"name": "Pork Jerky", "price": "12.00", "id": "9Y2W9211AXHWP", "href": "/menu/pork-jerky-9Y2W9211AXHWP"},
+        {"name": "Spicy Crispy Pork Cracker (Small)", "price": "7.00", "id": "APH91XRKJQD0Y", "href": "/menu/spicy-crispy-pork-cracker-small-APH91XRKJQD0Y"},
+        {"name": "Thai Dip Seafood (Small)", "price": "7.00", "id": "WDK4KAA11W362", "href": "/menu/thai-dip-seafood-small-WDK4KAA11W362"},
+        {"name": "Nam Prik Ari Mackerel Fish", "price": "7.00", "id": "Z2M9D61PPY2Z2", "href": "/menu/nam-prik-ari-mackerel-fish-Z2M9D61PPY2Z2"},
+        {"name": "Nam Prik Ari Pla Salid", "price": "7.00", "id": "JXDGD27TT8R3A", "href": "/menu/nam-prik-ari-pla-salid-JXDGD27TT8R3A"},
+        {"name": "Nam Prik Ari Seasonal Clam", "price": "7.00", "id": "XD9Q7Z6YYWKG2", "href": "/menu/nam-prik-ari-seasanal-calm-XD9Q7Z6YYWKG2"},
+        {"name": "Nam Prik Ari Dried Shrimp", "price": "7.00", "id": "A0YHYJ9TEMV2T", "href": "/menu/nam-prik-ari-dried-shrimp-A0YHYJ9TEMV2T"}
+      ]
+    },
+    {
+      "slug": "special",
+      "title": "Special",
+      "items": [
+        {"name": "Hainanese Chicken", "price": "15.99", "id": null, "href": "/menu/hainanese-chicken-FC5D79HGRSSDR"},
+        {"name": "Spicy Bamboo Salad", "price": "15.99", "id": null, "href": "/menu/spicy-bamboo-salad-HNFS6TVKPBW9M"},
+        {"name": "Pork Blood Soup", "price": "15.99", "id": null, "href": "/menu/pork-blood-soup-6GR4R7H28A56R"},
+        {"name": "Jasmine Rice", "price": "3.00", "id": null, "href": "/menu/jasmine-rice-M99ATTGYMW84P"},
+        {"name": "Sticky Rice", "price": "3.00", "id": null, "href": "/menu/sticky-rice-MPG6K67WZTZDG"}
+      ]
+    },
+    {
+      "slug": "chayada",
+      "title": "Chayada Herbal",
+      "items": [
+        {"name": "Chayada Herbal Inhaler", "price": "7.99", "id": "0ZQZCZPXF5TVR", "href": "/menu/chayada-herbal-inhaler-0ZQZCZPXF5TVR"},
+        {"name": "Chayada Herbal Balm", "price": "4.99", "id": "SCS9W28TKGJNC", "href": "/menu/chayada-herbal-balm-SCS9W28TKGJNC"},
+        {"name": "Chayada Oil Roll-On", "price": "9.99", "id": "0KDP2KCKET1C4", "href": "/menu/chayada-oil-roll-on-0KDP2KCKET1C4"},
+        {"name": "Chayada Herbal Oil Spray", "price": "12.99", "id": "Z18YNPT0RQN8T", "href": "/menu/chayada-herbal-oil-spray-Z18YNPT0RQN8T"}
+      ]
+    }
+  ]
+}

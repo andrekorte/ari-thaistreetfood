@@ -52,6 +52,13 @@ def local_path(path):
 
 
 def rewrite_html(html):
+    # --- nav "Menu" item -> our own /menu/ page (before the Clover rewrite) ---
+    html = re.sub(
+        r'(<a href=")[^"]*(" (?:itemprop="url" )?class = "hfe-menu-item">Menu)',
+        r"\1/menu/\2",
+        html,
+    )
+
     # --- menu/order links: dead FoodBooking account -> Clover ordering ---
     html = html.replace(FOODBOOKING_URL, CLOVER_URL)
 
