@@ -15,6 +15,15 @@ FOODBOOKING_URL = (
 )
 CLOVER_URL = "https://arithaistreetfood-brisbane-city.cloveronline.com.au/menu/all"
 
+# New header logo (from the Clover ordering site) replaces the old white/red one
+# everywhere it appears (header, footer, favicons).
+OLD_LOGO_URLS = (
+    "/wp-content/uploads/2025/04/cropped-website-logo.webp",
+    "/wp-content/uploads/2025/04/cropped-website-logo-300x300.webp",
+    "/wp-content/uploads/2025/04/cropped-website-logo-150x150.webp",
+)
+NEW_LOGO_URL = "/wp-content/uploads/ari-logo.png"
+
 PAGES = {
     "home.html": "index.html",
     "about.html": "about/index.html",
@@ -133,6 +142,16 @@ def rewrite_html(html):
     # --- JSON-escaped URLs inside inline JS configs ---
     html = html.replace("https:\\/\\/ari-thaistreetfood.com\\/", "\\/")
 
+    # --- swap in the new logo (runs after URL rewriting, so paths are local) ---
+    for old in OLD_LOGO_URLS:
+        html = html.replace(old, NEW_LOGO_URL)
+
+    # --- custom overrides stylesheet, last so it wins the cascade ---
+    html = html.replace(
+        "</head>",
+        '<link rel="stylesheet" href="/wp-content/custom.css" media="all">\n</head>',
+    )
+
     # restore protected canonical
     html = html.replace("__KEEPDOMAIN__", DOMAIN)
     return html
@@ -145,6 +164,10 @@ def main():
         if os.path.exists(dest):
             shutil.rmtree(dest)
         shutil.copytree(os.path.join(MIRROR, tree), dest)
+
+    # site-specific additions on top of the mirrored assets
+    shutil.copy(os.path.join(MIRROR, "custom.css"), os.path.join(SITE, "wp-content", "custom.css"))
+    shutil.copy(os.path.join(MIRROR, "ari-logo.png"), os.path.join(SITE, "wp-content", "uploads", "ari-logo.png"))
 
     # rewrite domain in all CSS files to root-relative
     for tree in ("wp-content", "wp-includes"):
