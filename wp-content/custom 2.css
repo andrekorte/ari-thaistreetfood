@@ -1,0 +1,64 @@
+/* Ari site overrides — loaded after all mirrored WordPress styles. */
+
+/* Header bar: dark background so the yellow Clover logo stands out.
+   686db471 is the header section; the motion-effects layer paints its
+   background once the page is scrolled. */
+.elementor-1028 .elementor-element.elementor-element-686db471,
+.elementor-1028 .elementor-element.elementor-element-686db471
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #05070b !important;
+}
+
+/* Home hero: Pad Kra Pow photo instead of the original pad thai image. */
+.elementor-13 .elementor-element.elementor-element-44e82272:not(.elementor-motion-effects-element-type-background),
+.elementor-13 .elementor-element.elementor-element-44e82272
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("/wp-content/uploads/pad-kra-pow-hero.jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+/* Home "Featured dishes": ENTREE tile photo (Set Moo Ping skewers). */
+.elementor-13 .elementor-element.elementor-element-228f0fbb {
+  background-image: url("/wp-content/uploads/entree-tile.jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+/* Home "Featured dishes": STIR-FRY tile photo (Gai-Lan crispy pork). */
+.elementor-13 .elementor-element.elementor-element-8cb4c72 {
+  background-image: url("/wp-content/uploads/stir-fry-tile.jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+/* Nav links: white on the dark header, brand yellow on hover/current. */
+.elementor-1028 .menu-item a.hfe-menu-item,
+.elementor-1028 .sub-menu a.hfe-sub-menu-item {
+  color: #ffffff !important;
+}
+.elementor-1028 .menu-item a.hfe-menu-item:hover,
+.elementor-1028 .menu-item.current-menu-item a.hfe-menu-item,
+.elementor-1028 .menu-item.current-menu-ancestor a.hfe-menu-item {
+  color: #f2c519 !important;
+}
+
+/* Mobile flyout menu panel: dark like the header, so the white links read. */
+.elementor-1028 .hfe-flyout-content {
+  background-color: #05070b !important;
+}
+.elementor-1028 .hfe-flyout-close {
+  color: #ffffff !important;
+}
+
+/* Mobile hamburger menu: keep the dropdown readable on dark. */
+.elementor-1028 nav.hfe-dropdown,
+.elementor-1028 nav.hfe-dropdown .menu-item a.hfe-menu-item {
+  background-color: #05070b !important;
+}
+.elementor-1028 .hfe-nav-menu__toggle,
+.elementor-1028 .hfe-nav-menu-icon {
+  color: #ffffff !important;
+}
