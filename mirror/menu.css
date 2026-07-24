@@ -9,7 +9,7 @@
   position: relative;
   padding: 110px 20px 90px;
   text-align: center;
-  background: #05070b url("/wp-content/uploads/2025/03/IMG_3351-2-scaled-1.webp") center/cover no-repeat;
+  background: #05070b url("/wp-content/uploads/menu-hero.jpg") center/cover no-repeat;
 }
 .ari-menu-hero::before {
   content: "";
