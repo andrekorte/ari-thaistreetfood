@@ -132,6 +132,9 @@ def rewrite_html(html):
         html,
     )
 
+    # --- header logo links to /home (WP redirect page that doesn't exist here) ---
+    html = html.replace('href="/home"', 'href="/"')
+
     # --- srcset attributes (multiple URLs per value) ---
     def srcset_repl(m):
         quote, value = m.group(1), m.group(2)
